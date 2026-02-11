@@ -1,4 +1,4 @@
-# Maa Ke Haath — Homemade Products Website
+# Swad-e-Virasat — Homemade Products Website
 
 Full-stack website for a homemade product business (Ladoo, Thekua, Pickle, Nimki, etc.) with a **yellow-and-white** themed React frontend, Node.js/Express backend, and MongoDB.
 
