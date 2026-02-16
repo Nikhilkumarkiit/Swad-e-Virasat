@@ -6,8 +6,14 @@ import productRoutes from './routes/products.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-
-app.use(cors({ origin: ['http://localhost:5173', 'http://127.0.0.1:5173'] }));
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://swad-e-virasat.vercel.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 app.use(express.json());
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/homemade-products')
