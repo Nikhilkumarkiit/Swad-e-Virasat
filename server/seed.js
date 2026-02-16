@@ -13,7 +13,7 @@ const products = [
     description: 'Traditional gram flour ladoos, ghee-rich and flavoured with cardamom. Perfect for festivals and celebrations.',
     price: 300,
     unit: 'kg',
-    image: 'besan-ladoo.png',
+    image: "besan-ladoo.png",
     featured: true,
   },
   {
@@ -23,7 +23,7 @@ const products = [
     description: 'Tiny pearl-shaped boondi dipped in sugar syrup. A classic North Indian sweet.',
     price: 450,
     unit: 'kg',
-    image: 'motichoor-ladoo.png',
+    image: "motichoor-ladoo.png",
     featured: true,
   },
   {
@@ -33,7 +33,7 @@ const products = [
     description: 'Soft, melt-in-mouth coconut and condensed milk ladoos with a hint of cardamom.',
     price: 400,
     unit: 'kg',
-    image: 'coconut-ladoo.png',
+    image: "coconut-ladoo.png",
     featured: false,
   },
   {
@@ -43,7 +43,7 @@ const products = [
     description: 'Golden gram flour droplets in sugar syrup, shaped into soft ladoos. Festive favourite.',
     price: 550,
     unit: 'kg',
-    image: 'boondi-ladoo.png',
+    image: "boondi-ladoo.png",
     featured: false,
   },
   {
@@ -53,7 +53,7 @@ const products = [
     description: 'Luxury ladoos loaded with cashews, almonds, pistachios and raisins. Best quality for gifting.',
     price: 800,
     unit: 'kg',
-    image: 'premium-dry-fruit-ladoo.png',
+    image: "premium-dry-fruit-ladoo.png",
     featured: true,
   },
   // —— Bihari Thekua (₹300 per kg) ——
@@ -64,7 +64,7 @@ const products = [
     description: 'Crisp wheat and jaggery cookies from Bihar. Made with ghee and fennel for a unique flavour. Traditional prasad for Chhath Puja.',
     price: 300,
     unit: 'kg',
-    image: 'bihari-thekua.png',
+    image: "bihari-thekua.png",
     featured: true,
   },
   // —— 5 types of Pickle (₹250 per kg) ——
@@ -75,7 +75,7 @@ const products = [
     description: 'Tangy raw mango pickle with mustard oil and spices. Pairs perfectly with dal and rice.',
     price: 250,
     unit: 'kg',
-    image: 'mango-pickle.png',
+    image: "mango-pickle.png",
     featured: true,
   },
   {
@@ -85,7 +85,7 @@ const products = [
     description: 'Zesty lemon pickle with turmeric and red chilli. Refreshing and tangy.',
     price: 250,
     unit: 'kg',
-    image: 'lemon-pickle.png',
+    image: "lemon-pickle.png",
     featured: false,
   },
   {
@@ -95,7 +95,7 @@ const products = [
     description: 'Assorted vegetables in a spicy, oil-based pickle. A versatile accompaniment.',
     price: 250,
     unit: 'kg',
-    image: 'mixed-vegetable-pickle.png',
+    image: "mixed-vegetable-pickle.png",
     featured: false,
   },
   {
@@ -105,7 +105,7 @@ const products = [
     description: 'Spicy green chilli pickle with mustard and fenugreek. For those who love heat.',
     price: 250,
     unit: 'kg',
-    image: 'chilli-pickle.png',
+    image: "chilli-pickle.png",
     featured: false,
   },
   {
@@ -115,7 +115,7 @@ const products = [
     description: 'Pungent garlic cloves in spiced oil. Bold flavour that elevates any meal.',
     price: 250,
     unit: 'kg',
-    image: 'garlic-pickle.png',
+    image: "garlic-pickle.png",
     featured: false,
   },
   // —— 3 types of Nimki (₹200 per kg), each with its own image ——
@@ -126,7 +126,7 @@ const products = [
     description: 'Crispy diamond-shaped savoury snacks. Lightly spiced and perfect with chai.',
     price: 200,
     unit: 'kg',
-    image: 'plain-nimki.png',
+    image: "plain-nimki.png",
     featured: true,
   },
   {
@@ -136,7 +136,7 @@ const products = [
     description: 'Flaky, floured biscuits with ajwain and black pepper. A classic North Indian tea-time snack.',
     price: 200,
     unit: 'kg',
-    image: 'mathri-nimki.png',
+    image: "mathri-nimki.png",
     featured: false,
   },
   {
@@ -146,7 +146,7 @@ const products = [
     description: 'Crunchy nimki with a hint of cumin and black pepper. Ideal with evening chai.',
     price: 200,
     unit: 'kg',
-    image: 'spiced-nimki.png',
+    image: "spiced-nimki.png",
     featured: false,
   },
 ];
