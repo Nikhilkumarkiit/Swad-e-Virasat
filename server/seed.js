@@ -53,7 +53,7 @@ const products = [
     description: 'Luxury ladoos loaded with cashews, almonds, pistachios and raisins. Best quality for gifting.',
     price: 800,
     unit: 'kg',
-    image: 'dry fruit.png',
+    image: 'dryfruit.png',
     featured: true,
   },
   // —— Bihari Thekua (₹300 per kg) ——
@@ -105,7 +105,7 @@ const products = [
     description: 'Spicy green chilli pickle with mustard and fenugreek. For those who love heat.',
     price: 250,
     unit: 'kg',
-    image: 'pickle p.png',
+    image: 'cpickle.png',
     featured: false,
   },
   {
@@ -146,7 +146,7 @@ const products = [
     description: 'Crunchy nimki with a hint of cumin and black pepper. Ideal with evening chai.',
     price: 200,
     unit: 'kg',
-    image: 'mix nimki.png',
+    image: 'mixnimki.png',
     featured: false,
   },
 ];
