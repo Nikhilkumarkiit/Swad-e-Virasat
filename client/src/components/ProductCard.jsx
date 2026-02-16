@@ -13,7 +13,7 @@ export default function ProductCard({ product }) {
           src={`/images/${product.image}`}
           alt={product.name}
           onError={(e) => {
-            e.target.src='/images/plain-nimki.png';
+            e.target.src="/images/placeholder.png";
           }}
         />
         ) : (
