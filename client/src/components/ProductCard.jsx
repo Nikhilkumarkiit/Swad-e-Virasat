@@ -7,7 +7,7 @@ export default function ProductCard({ product }) {
     <Link to={`/products/${slug}`} className="product-card card">
       <div className="product-card__image">
         {image ? (
-          <img src={image} alt={name} className="product-card__img" loading="lazy" />
+          <img src={`/images/${images}`} alt={name} className="product-card__img" loading="lazy" />
         ) : (
           <div className="product-card__placeholder" />
         )}
