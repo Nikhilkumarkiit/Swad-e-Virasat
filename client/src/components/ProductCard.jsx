@@ -12,11 +12,8 @@ export default function ProductCard({ product }) {
           <img
           src={`/images/${product.image}`}
           alt={product.name}
-          style={{
-            width: "100%",
-            height: "180px",
-            objectFit: "cover",
-            display: "block"
+          onError={(e) => {
+            e.target.src='/images/plain-nimki.png';
           }}
         />
         ) : (
