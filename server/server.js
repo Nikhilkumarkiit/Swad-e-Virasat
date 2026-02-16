@@ -7,11 +7,8 @@ import productRoutes from './routes/products.js';
 const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://swad-e-virasat.vercel.app"
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE","OPTIONS"],
   credentials: true
 }));
 app.use(express.json());
