@@ -1,4 +1,5 @@
 
+
 import { Link } from 'react-router-dom';
 
 export default function ProductCard({ product }) {
@@ -8,7 +9,16 @@ export default function ProductCard({ product }) {
     <Link to={`/products/${slug}`} className="product-card card">
       <div className="product-card__image">
         {image ? (
-          <img src={`/images/${image}`} alt={name} className="product-card__img" loading="lazy" />
+          <img
+          src={`/images/${product.image}`}
+          alt={product.name}
+          style={{
+            width: "100%",
+            height: "180px",
+            objectFit: "cover",
+            display: "block"
+          }}
+        />
         ) : (
           <div className="product-card__placeholder" />
         )}

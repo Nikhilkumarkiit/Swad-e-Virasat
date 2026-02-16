@@ -1,4 +1,4 @@
-const API_BASE = '/api';
+const API_BASE = 'http://localhost:5000/api';
 
 export async function getProducts(params = {}) {
   const q = new URLSearchParams(params).toString();

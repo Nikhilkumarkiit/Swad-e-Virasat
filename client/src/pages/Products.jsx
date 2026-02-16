@@ -17,7 +17,7 @@ export default function Products() {
 
   useEffect(() => {
     setLoading(true);
-    const params = filter ? { category: filter } : {};
+    const params = {};
     Promise.all([getProducts(params), getCategories()])
       .then(([prods, cats]) => {
         setProducts(prods);
