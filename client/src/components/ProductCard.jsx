@@ -10,11 +10,8 @@ export default function ProductCard({ product }) {
       <div className="product-card__image">
         {image ? (
           <img
-          src={`/images/${product.image}`}
+          src={`${import.meta.env.VITE_API_URL.replace('/api','')}/images/${product.image}`}
           alt={product.name}
-          onError={(e) => {
-            e.target.src="/images/placeholder.png";
-          }}
         />
         ) : (
           <div className="product-card__placeholder" />
