@@ -120,3 +120,6 @@ button {
 .card:hover {
   box-shadow: 0 8px 24px var(--shadow);
 }
+img{
+  display: block;
+}
